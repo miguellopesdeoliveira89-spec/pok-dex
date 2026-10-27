@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b0f19;
+}
+
+.treinador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.bnt {
+    display: flex;
+    justify-content: center;
+}
+.card-pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.nome-card {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.nome-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.nomePokwmon {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+.card-element-info {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.card-pokemon-info {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.combat-power {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.card-element-fire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffe3d6;
+    padding: 20px;
+    margin-top: 20px;
+    border-color: (3px solid + #e25822);
+}
+.card-element-water {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dcecff;
+    padding: 20px;
+    margin-top: 20px;
+    border-color: (3px solid + #2980d9);
+}
+.card-element-grass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0f6dc;
+    padding: 20px;
+    margin-top: 20px;
+    border-color: (3px solid + #3a9d3a);
+}
+.card-element-electric {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff7c2;
+    border-radius: #d4a800;
+    padding: 20px;
+    margin-top: 20px;
+    border-color: (3px solid);
+}
+.card-element-poison {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eddcf5;
+    border-radius: #8e44ad;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-element-normal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ececec;
+    border-radius: #7f8c8d;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+    .card-pokemon {
+        width: 100%;
+        padding: 10px;
+    }
+    .nome-card img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .card-pokemon {
+        width: 80%;
+        padding: 15px;
+    }
+    .nome-card img {
+        width: 120px;
+        height: 120px;
+    }
+}
